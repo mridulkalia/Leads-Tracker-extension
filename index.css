@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    min-width: 400px;
+}
+#outer-div{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    margin-left: 18px;
+    margin-right: 18px;
+}
+#inner{
+    display: flex;
+    justify-content: space-evenly;
+}
+#input_tab{
+    height: 40px;
+    border: 2px solid rgb(14, 168, 14);
+    font-weight: 600;
+    font-size: 14px;
+    padding-left: 17px;
+    background-color: rgba(0, 208, 255, 0.116);
+}
+
+#save{
+    border: none;
+    margin-top: 5px;
+    border-radius: 7px;
+    width: 115px;
+    height: 35px;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: rgba(0, 138, 0, 0.911);
+    color: white;
+}
+
+#fetch{
+    border: none;
+    margin-top: 5px;
+    border-radius: 7px;
+    width: 115px;
+    height: 35px;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: rgb(234, 180, 18);
+    color: white;
+}
+
+#clear{
+    border: none;
+    margin-top: 5px;
+    border-radius: 7px;
+    width: 115px;
+    height: 35px;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: rgba(211, 2, 2, 0.911);
+    color: white;
+}
+
+#save:active{
+    background-color: rgba(0, 138, 0, 0.79) ;
+}
+#clear:active{
+    background-color: rgba(211, 2, 2, 0.694) ;
+}
+#fetch:active{
+    background-color: rgba(234, 180, 18, 0.865);
+}
+ul{
+    list-style-type: none;
+    margin-top: 15px;
+    margin-bottom: 8px;
+    margin-left: 19px;
+    font-weight: 700;
+}
+ul>li{
+    line-height: 20px;
+}
+ul li a{
+    color: rgb(14, 168, 14);
+}
